@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:clima/utilities/constants.dart';
+
+import '../utilities/constants.dart';
 
 class LocationScreen extends StatefulWidget {
   @override
@@ -28,16 +29,16 @@ class _LocationScreenState extends State<LocationScreen> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  FlatButton(
+                  IconButton(
                     onPressed: () {},
-                    child: Icon(
+                    icon: Icon(
                       Icons.near_me,
                       size: 50.0,
                     ),
                   ),
-                  FlatButton(
+                  IconButton(
                     onPressed: () {},
-                    child: Icon(
+                    icon: Icon(
                       Icons.location_city,
                       size: 50.0,
                     ),
